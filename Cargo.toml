@@ -1,6 +1,7 @@
 [package]
+authors = ["SchweGELBin <schwegelbin@gmail.com>"]
+edition = "2024"
 name = "mixbot"
 version = "0.1.0"
-edition = "2024"
 
 [dependencies]
