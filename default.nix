@@ -1,11 +1,11 @@
-{ lib, rustPlatform }:
+{ buildNpmPackage, lib }:
 
-rustPlatform.buildRustPackage (finalAttrs: {
+buildNpmPackage (finalAttrs: {
   pname = "mixbot";
   version = "0.1.0";
 
   src = ./.;
-  cargoLock.lockFile = ./Cargo.lock;
+  npmDepsHash = "sha256-ayKfROiMqNei9FJgOzYQkS22qjP9evBdQjX1lbfy92I=";
 
   meta = {
     description = "Minecraft MiXBot";
