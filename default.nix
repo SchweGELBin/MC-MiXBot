@@ -8,6 +8,7 @@ buildNpmPackage (finalAttrs: {
   npmDepsHash = "sha256-ayKfROiMqNei9FJgOzYQkS22qjP9evBdQjX1lbfy92I=";
 
   meta = {
+    broken = true;
     description = "Minecraft MiXBot";
     homepage = "https://github.com/SchweGELBin/MC-MiXBot";
     changelog = "https://github.com/SchweGELBin/MC-MiXBot/blob/v${finalAttrs.version}/docs/CHANGELOG.md";
