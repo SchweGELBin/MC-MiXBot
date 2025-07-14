@@ -11,4 +11,4 @@ The Bot needs following environment variables to function:
 | -------- | ----------- | ------- |
 | MIXBOT_HOST | Your Server IP | localhost |
 | MIXBOT_NAME | Your Bot's Name | MiXBot |
-| MIXBOT_ONLINE | Authenticate with Microsoft | 0 |
+| MIXBOT_ONLINE | Authenticate with Microsoft | false |

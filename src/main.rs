@@ -10,9 +10,9 @@ use std::{
 async fn main() {
     let host = var("MIXBOT_HOST").unwrap_or("localhost".to_string());
     let name = var("MIXBOT_NAME").unwrap_or("MiXBot".to_string());
-    let online = var("MIXBOT_ONLINE").unwrap_or("0".to_string());
+    let online = var("MIXBOT_ONLINE").unwrap_or("false".to_string());
 
-    let account = if online == "1" {
+    let account = if online == "1" || online == "true" {
         Account::microsoft(&name).await.unwrap()
     } else {
         Account::offline(&name)
