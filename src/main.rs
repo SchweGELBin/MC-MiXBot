@@ -13,9 +13,9 @@ async fn main() {
     let online = var("MIXBOT_ONLINE").unwrap_or("0".to_string());
 
     let account = if online == "1" {
-        Account::microsoft(&username).await.unwrap()
+        Account::microsoft(&name).await.unwrap()
     } else {
-        Account::offline(&username)
+        Account::offline(&name)
     };
 
     ClientBuilder::new()
