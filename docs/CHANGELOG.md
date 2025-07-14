@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.0] - 2025-07-14
+
+### 🚀 Features
+
+- Build using rust nightly
+- Allow setting online env var to "true"
+
+### 📚 Documentation
+
+- *(readme)* Correctly describe `MIXBOT_NAME`
+
 ## [0.0.1] - 2025-07-14
 
 ### 🐛 Bug Fixes
@@ -11,6 +22,10 @@ All notable changes to this project will be documented in this file.
 ### 🚜 Refactor
 
 - Mineflayer -> azalea
+
+### ⚙️ Miscellaneous Tasks
+
+- Bump to 0.0.1
 
 ## [0.0.0] - 2025-07-12
 
