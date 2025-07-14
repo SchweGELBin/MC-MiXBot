@@ -1,0 +1,12 @@
+[package]
+authors = ["SchweGELBin <schwegelbin@gmail.com>"]
+edition = "2024"
+name = "mixbot"
+version = "0.1.0"
+
+
+[dependencies]
+anyhow = "^1.0"
+azalea = "^0.13"
+parking_lot = "^0.12"
+tokio = "^1.46"
