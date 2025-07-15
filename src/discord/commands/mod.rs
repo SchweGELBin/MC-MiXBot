@@ -44,7 +44,7 @@ pub async fn goto(ctx: Context<'_>) -> Result<(), Error> {
 
 #[poise::command(prefix_command, slash_command)]
 pub async fn join(ctx: Context<'_>) -> Result<(), Error> {
-    crate::minecraft::join().await;
+    tokio::spawn(crate::minecraft::join());
     let res = "Done";
     ctx.say(res).await?;
     Ok(())
