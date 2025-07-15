@@ -9,4 +9,6 @@ version = "0.1.0"
 anyhow = "^1.0"
 azalea = "^0.13"
 parking_lot = "^0.12"
-tokio = "^1.46"
+poise = "^0.6"
+tokio = { version = "^1.46", features = ["macros", "rt-multi-thread"] }
+tracing-subscriber = "^0.3"
