@@ -3,7 +3,8 @@
 [![GitHub License](https://img.shields.io/github/license/SchweGELBin/MiXBot)](../LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/SchweGELBin/MiXBot)](https://github.com/SchweGELBin/MiXBot/releases/latest)
 
-Minecraft MiXBot
+- Minecraft MiXBot
+- Available in my [nur expressions](https://github.com/SchweGELBin/nur-expressions) repo
 
 ## Environment
 The Bot needs following environment variables to function:
