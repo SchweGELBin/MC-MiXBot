@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.0] - 2025-07-15
+
+### 🚀 Features
+
+- Add discord bot
+
+### 🐛 Bug Fixes
+
+- *(discord)* Use tokio spawn instead of await
+
+### 📚 Documentation
+
+- *(readme)* Add discord env vars
+- *(readme)* Update repo link
+
 ## [0.1.0] - 2025-07-14
 
 ### 🚀 Features
@@ -12,6 +27,10 @@ All notable changes to this project will be documented in this file.
 ### 📚 Documentation
 
 - *(readme)* Correctly describe `MIXBOT_NAME`
+
+### ⚙️ Miscellaneous Tasks
+
+- Bump to 0.1.0
 
 ## [0.0.1] - 2025-07-14
 
