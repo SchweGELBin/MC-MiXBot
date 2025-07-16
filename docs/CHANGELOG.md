@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.2] - 2025-07-16
+
+### 🐛 Bug Fixes
+
+- *(nix)* Use nightly again
+
 ## [0.2.1] - 2025-07-16
 
 ### 🚜 Refactor
@@ -11,6 +17,10 @@ All notable changes to this project will be documented in this file.
 ### 📚 Documentation
 
 - *(readme)* Note nur availability
+
+### ⚙️ Miscellaneous Tasks
+
+- Bump to 0.2.1
 
 ## [0.2.0] - 2025-07-15
 
