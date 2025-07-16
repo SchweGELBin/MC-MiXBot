@@ -25,7 +25,9 @@ The Bot needs following environment variables to function:
 ### Discord
 | Command | Arguments | Description |
 | ------- | --------- | ----------- |
+| fight | [player] | Fight a player |
 | goto | [x] \<y\> [z] | Goto coordinates |
+| guard | \<mob\> | Attack (specific) nearby mobs |
 | help | \<command\> | Show command information |
 | join | - | Join the Server |
 | leave | - | Leave the Server |
