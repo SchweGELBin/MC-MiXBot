@@ -34,6 +34,7 @@ The Bot needs following environment variables to function:
 | Command | Arguments | Description |
 | ------- | --------- | ----------- |
 | follow | \<name\> | Follow a player |
+| stop | - | Stop the current action |
 | tp | - | Close the nearest trapdoor |
 
 ### Extra
