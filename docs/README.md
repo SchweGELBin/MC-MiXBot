@@ -5,6 +5,7 @@
 
 - Minecraft MiXBot
 - Available in my [nur expressions](https://github.com/SchweGELBin/nur-expressions) repo
+- This bot is very experimental and should not be used in the current state
 
 ## Environment
 The Bot needs following environment variables to function:
@@ -16,3 +17,24 @@ The Bot needs following environment variables to function:
 | MIXBOT_HOST | Your Server IP | localhost |
 | MIXBOT_NAME | Your Bot's Name | MiXBot |
 | MIXBOT_ONLINE | Authenticate with Microsoft | false |
+
+## Commands
+### Discord
+| Command | Arguments | Description |
+| ------- | --------- | ----------- |
+| goto | [x] \<y\> [z] | Goto coordinates |
+| help | \<command\> | Show command information |
+| ping | - | Reply with "Pong!" |
+| join | - | Join the Server |
+| leave | - | Leave the Server |
+| msg | \<name\> | Send Message to chat/user |
+| status | - | Give Player List, TPS, Coordinates |
+
+### Minecraft
+| Command | Arguments | Description |
+| ------- | --------- | ----------- |
+| follow | \<name\> | Follow a player |
+| tp | - | Close the nearest trapdoor |
+
+### Extra
+Minecraft: "/msg <bot> <msg>" -> Bridge to Discord
