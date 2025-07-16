@@ -19,6 +19,9 @@ The Bot needs following environment variables to function:
 | MIXBOT_ONLINE | Authenticate with Microsoft | false |
 
 ## Commands
+- "[arg]" -> Necessary Argument
+- "\<arg\>" -> Optional Argument
+
 ### Discord
 | Command | Arguments | Description |
 | ------- | --------- | ----------- |
@@ -39,4 +42,4 @@ The Bot needs following environment variables to function:
 | tp | - | Close the nearest trapdoor |
 
 ### Extra
-Minecraft: "/msg \<bot\> \<msg\>" -> Bridge to Discord
+Minecraft: "/msg [bot] [msg]" -> Bridge to Discord
