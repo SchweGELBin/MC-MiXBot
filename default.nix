@@ -1,6 +1,24 @@
-{ lib, rustPlatform }:
+{
+  fenix ? import (fetchTarball "https://github.com/nix-community/fenix/archive/monthly.tar.gz") { },
+  lib,
+  pkgs,
+}:
 
-rustPlatform.buildRustPackage (finalAttrs: {
+let
+  rustToolchain =
+    with fenix;
+    combine [
+      minimal.toolchain
+      targets.aarch64-unknown-linux-gnu.minimal.rust-std
+      targets.x86_64-unknown-linux-gnu.minimal.rust-std
+    ];
+  rustNightly = pkgs.makeRustPlatform {
+    cargo = rustToolchain;
+    rustc = rustToolchain;
+  };
+in
+
+rustNightly.buildRustPackage (finalAttrs: {
   pname = "mixbot";
   version = "0.2.2";
 

@@ -25,15 +25,10 @@
         system:
         let
           pkgs = nixpkgs.legacyPackages.${system};
-          platform = (
-            pkgs.makeRustPlatform {
-              inherit (fenix.packages.${system}.minimal) cargo rustc;
-            }
-          );
         in
         {
-          mixbot = pkgs.callPackage ./. { rustPlatform = platform; };
-          default = pkgs.callPackage ./. { rustPlatform = platform; };
+          mixbot = pkgs.callPackage ./. { fenix = fenix.packages.${system}; };
+          default = pkgs.callPackage ./. { fenix = fenix.packages.${system}; };
         }
       );
     };
