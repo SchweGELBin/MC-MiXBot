@@ -37,4 +37,4 @@ The Bot needs following environment variables to function:
 | tp | - | Close the nearest trapdoor |
 
 ### Extra
-Minecraft: "/msg <bot> <msg>" -> Bridge to Discord
+Minecraft: "/msg \<bot\> \<msg\>" -> Bridge to Discord
