@@ -7,6 +7,8 @@ rustPlatform.buildRustPackage (finalAttrs: {
   src = ./.;
   cargoLock.lockFile = ./Cargo.lock;
 
+  env.RUSTC_BOOTSTRAP = 1;
+
   meta = {
     description = "Minecraft MiXBot";
     homepage = "https://github.com/SchweGELBin/MC-MiXBot";
