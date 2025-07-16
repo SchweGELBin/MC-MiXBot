@@ -2,11 +2,30 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.0] - 2025-07-16
+
+### 🚀 Features
+
+- *(nix)* Allow cross compilation
+
+### 📚 Documentation
+
+- *(readme)* Add commands
+- *(readme)* Fix formatting
+- *(readme)* Add `stop` command
+- *(readme)* Add `version` command
+- *(readme)* Explain arguments
+- *(readme)* Add `fight` and `guard` commands
+
 ## [0.2.2] - 2025-07-16
 
 ### 🐛 Bug Fixes
 
 - *(nix)* Use nightly again
+
+### ⚙️ Miscellaneous Tasks
+
+- Bump to 0.2.2
 
 ## [0.2.1] - 2025-07-16
 

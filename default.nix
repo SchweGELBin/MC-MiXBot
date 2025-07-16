@@ -20,7 +20,7 @@ in
 
 rustNightly.buildRustPackage (finalAttrs: {
   pname = "mixbot";
-  version = "0.2.2";
+  version = "0.3.0";
 
   src = ./.;
   cargoLock.lockFile = ./Cargo.lock;
