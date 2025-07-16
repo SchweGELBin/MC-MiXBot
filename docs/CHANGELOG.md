@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.2.1] - 2025-07-16
+
+### 🚜 Refactor
+
+- *(nix)* Use RUSTC_BOOTSTRAP instead of fenix-monthly
+
+### 📚 Documentation
+
+- *(readme)* Note nur availability
+
 ## [0.2.0] - 2025-07-15
 
 ### 🚀 Features
@@ -16,6 +26,10 @@ All notable changes to this project will be documented in this file.
 
 - *(readme)* Add discord env vars
 - *(readme)* Update repo link
+
+### ⚙️ Miscellaneous Tasks
+
+- Bump to 0.2.0
 
 ## [0.1.0] - 2025-07-14
 
