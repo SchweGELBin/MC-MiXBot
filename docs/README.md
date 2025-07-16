@@ -24,11 +24,12 @@ The Bot needs following environment variables to function:
 | ------- | --------- | ----------- |
 | goto | [x] \<y\> [z] | Goto coordinates |
 | help | \<command\> | Show command information |
-| ping | - | Reply with "Pong!" |
 | join | - | Join the Server |
 | leave | - | Leave the Server |
 | msg | \<name\> | Send Message to chat/user |
+| ping | - | Reply with "Pong!" |
 | status | - | Give Player List, TPS, Coordinates |
+| version | - | Give the current Bot version |
 
 ### Minecraft
 | Command | Arguments | Description |
