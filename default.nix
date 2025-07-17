@@ -1,5 +1,8 @@
 {
-  fenix ? import (fetchTarball "https://github.com/nix-community/fenix/archive/monthly.tar.gz") { },
+  fenix ? import (fetchTarball {
+    url = "https://github.com/nix-community/fenix/archive/f1526533e3a59a666dbae99594c9d29b201f302d.tar.gz";
+    sha256 = "0gw1095ss53pfqhniq2wvg8wr340k830wpbjlmaq5jga18vkp21q";
+  }) { },
   lib,
   pkgs,
 }:
