@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.1] - 2025-07-17
+
+### 🐛 Bug Fixes
+
+- *(nix)* Specify fenix version
+
 ## [0.3.0] - 2025-07-16
 
 ### 🚀 Features
@@ -16,6 +22,10 @@ All notable changes to this project will be documented in this file.
 - *(readme)* Add `version` command
 - *(readme)* Explain arguments
 - *(readme)* Add `fight` and `guard` commands
+
+### ⚙️ Miscellaneous Tasks
+
+- Bump to 0.3.0
 
 ## [0.2.2] - 2025-07-16
 
